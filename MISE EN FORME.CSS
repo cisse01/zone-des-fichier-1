@@ -1,14 +1,14 @@
-*
-{
+*{
 padding: 0;	
 margin: 0;
+width: 1720;
 }
   .menu-bar
   {
   	background: rgb(0, 100, 0);
   	text-align:center ;
   }
-  .menu-bar ul
+.menu-bar ul
   {
     display: inline-flex;
        list-style: none;
@@ -16,7 +16,7 @@ margin: 0;
   }
   .menu-bar ul li
   {
-  	weidth:12;
+  	weight:12px;
 
   } 
       .menu-bar ul li 
@@ -33,7 +33,7 @@ margin: 0;
 }
   .active,.menu-bar ul li:hover 
     {
-      background:  #2bab0d
+      background:  #2bab0d;
       border-radius: 3px;
     }
     .menu-bar .fa
@@ -181,6 +181,30 @@ margin-top: 15px;
 
 }
 
+main
+{
+  display:grid;
+  grid-template-columns: 680px 2fr;
+  position: relative;
+  height: 510px;  
+}
+
+#image-1
+{
+}
+#body1
+{
+  font-size: 30px;
+  text-align: justify;
+  display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#p-body1
+{
+  position: relative;
+  top:150px;
+  padding: 5px;
+}
 
 
 
