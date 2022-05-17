@@ -1,16 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet"href="MISE EN FORME.CSS"/> 
-	<title>inscription</title>
-</head>
-<body>
-	<h1> pour vous inscrire veuillez entrez vos informations</h1>
-	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="inscription.css"/> 
+		<title>inscription</title>
+	</head>
 
 
+	<body>
+		<div id="div1">
 
-</body>
+			<ul id="ul1">
+				<li id="li1"><a id="a1" href="accueil.html">Acceuille</a></li>
+			</ul>
+			<h1>GONDWA MARKET</h1>
+			<ul id="ul2">
+				<li id="li2"><a id="a2" href="connexion.html">Connexion</a></li>
+			</ul>
+
+		</div>
+
+		<p>Bienvenu sur la page d'inscription de "GONDWA-MARKET"<br>
+		   Veillez Valider les information démander pour ouvrire un compte<br>
+		</p>
+
+		<p id="p_message">NB:</p>
+
+		<div id="div2">
+			<form id="form1" action="" method="post">
+
+				<label for="Nom"> <input type="text" name="Nom" id="f1" placeholder="Nom" required="required" ></label>
+				<label for="Prenom"> <input type="text" name="Prenom" id="f2" placeholder="Prenom" required="required"></label>
+				<label for="email"> <input type="email" name="email" id="f3" placeholder="Email@" required="required"></label>
+				<label for="password"> <input type="password" name="password" id="f4" placeholder="Mot de passe" maxlength="30" minlength="8" required="required"> </label>
+				<label for="Phone"><input type="tel" name="phone" id="f6" placeholder="Phone" maxlength="20" required="required"></label>
+				<label for="pays">
+				<select id="f7" name="pays" required="required">
+					<option value="MLI"> Mali</option>
+					<option value="CIV">Côte d'ivoir</option>
+					<option value="BFA">Burkina Faso</option>
+					<option value="MTQ">Mauritanie</option>
+					<option value="SEN"> Senegal</option>
+					<option value="NER">Niger</option>
+				</select>
+				</label> <br>
+				<label for="check"><p id="p2">j'ai lu et j'acceptes <br>les condition d'utlisation</p> <input type="checkbox" name="check1" id="f8" required="required"></label><br>
+				<label for="s'inscrire"><input type="submit" name="sub1" id="f9" value="S'inscrire" required="required"></label>	
+			</form>
+		</div>
+		<!-- L'action doit contenir l'UR ou les donneé du formulaire seront envoyée étant donneé qu'elle n'as pas été 
+		defini je laisse la place vide quand cette zone sera créer--> 
+
+		<script src="inscription.js"></script>
+	</body>
+
+
 </html> 
