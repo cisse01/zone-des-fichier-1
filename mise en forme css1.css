@@ -1,0 +1,316 @@
+*{
+padding: 0;	
+margin: 0;
+width: 1720;
+}
+  .menu-bar
+  {
+  	background: rgb(0, 100, 0);
+  	text-align:center ;
+  }
+.menu-bar ul
+  {
+    display: inline-flex;
+       list-style: none;
+        color: #fff;
+  }
+  .menu-bar ul li
+  {
+  	weight:12px;
+
+  } 
+      .menu-bar ul li 
+  {
+     width: 120px;
+      margin: 15px;
+       padding: 15px;
+  }
+  .menu-bar ul li a
+{
+  text-decoration: none;
+ color: #fff ;
+ 
+}
+  .active,.menu-bar ul li:hover 
+    {
+      background:  #2bab0d;
+      border-radius: 3px;
+    }
+    .menu-bar .fa
+     {
+    margin-right: 8px;
+
+     } 
+     .sub-menu-1
+     {
+      display: none;
+
+      }
+.menu-bar ul li:hover .sub-menu-1
+{
+display: block;
+   position: absolute;
+    background: rgb(0, 100, 0);
+margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+  {
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  border-radius: 0px;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+ border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+ color:#2bff00
+}
+.sub-menu-2
+     {
+      display: none;
+
+      }
+.menu-bar ul li:hover .sub-menu-2
+{
+display: block;
+   position: absolute;
+    background: rgb(0, 100, 0);
+margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul
+  {
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li
+{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  border-radius: 0px;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li:last-child
+{
+ border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li a:hover
+{
+ color:#2bff00
+
+}
+.sub-menu-3
+     {
+      display: none;
+
+      }
+.menu-bar ul li:hover .sub-menu-3
+{
+display: block;
+   position: absolute;
+    background: rgb(0, 100, 0);
+margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul
+  {
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li
+{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  border-radius: 0px;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li:last-child
+{
+ border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li a:hover
+{
+ color:#2bff00
+
+}
+.sub-menu-4
+     {
+      display: none;
+
+      }
+.menu-bar ul li:hover .sub-menu-4
+{
+display: block;
+   position: absolute;
+    background: rgb(0, 100, 0);
+margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-4 ul
+  {
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li
+{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  border-radius: 0px;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li:last-child
+{
+ border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li a:hover
+{
+ color:#2bff00
+
+}
+
+main
+{
+  display:grid;
+  grid-template-columns: 680px 2fr;
+  position: relative;
+  height: 510px;  
+}
+
+#image-1
+{
+}
+#body1
+{
+  font-size: 30px;
+  text-align: justify;
+  display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#p-body1
+{
+  position: relative;
+  top:150px;
+  padding: 5px;
+}
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenair
+{
+  max-width: 1170px;
+  background-color:rgb(0, 100, 0) ;
+
+}
+.row /* ici nous allons les ligne et les sépare */
+{
+
+display: flex;
+flex-wrap: wrap ;
+
+}
+ul
+{
+list-style: none;
+
+}
+footer
+{
+background-color: rgb(0, 100, 0);
+padding:70;0
+}
+.footer-col /*ici ça permet de de separe les écriture du footer et de les mettre dans la bonne position*/
+{
+width: 25%;
+padding: 0 15 px;
+}
+.footer-col h4/*Pour mettre le text en majuscule ainsi que change la couleur */
+{
+font-size: 18px;
+color: #ffffff;
+text-transform:capitalize;
+margin-bottom: 30px;
+font-weight: 500;
+position: relative ;
+}
+.footer-col h4::befor
+{
+content:'';
+position:absolute;
+left:0
+background-color:rgb(0;100;0);
+height: 2px;
+box-sizing: border-box;
+width: 50px;
+}
+.footer-col ul li a:( not last-child)
+{
+
+margin-bottom: 10px;
+}
+.footer-col ul li a
+{
+font-size: 16px;
+text-transform: capitalize;
+color: #ffffff;
+text-decoration:none ;
+font-weight:300px ;
+color: #bbbbbb;
+display: block;
+transition: all 0,3s ease;
+}
+.footer-col ul li a:hover
+{
+  color:#ffffff ;
+  padding-left: 8px;
+}
+.footer-col social-links
+{
+  display: inline-block;
+  height: 40px;
+   width: 40px;
+   background-color:rgba(255, 255, 255, 0.2); 
+   margin: 0 10px 10px 0 ;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50%;
+   color:#ffffff
+   transition: all 0.5 ease;/*ici la transition est utilise pour que on touuche le text ça puisse bouge */
+ }
+ .footer-col social-links
+ {
+  color:#24262b;
+  background-color: #ffffff;
+}
+/*REPONSIVE*/
+
+@media(max-width: 767px)
+{
+.footer-col{
+width: 50%;
+margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+.footer-col{
+width: 100%;
+}
+}
+
+
+
